@@ -5,4 +5,4 @@ discountdata.discountmap.MOBILEPHONE: 5.0
 discountdata.discountmap.MUSICINSTRUMENT: 5.9
 discountdata.discountmap.TOY: 9.99
 
-discountms.eureka.url: http://192.168.99.105:8761/eureka
+discountms.eureka.url: http://192.168.99.100:8761/eureka

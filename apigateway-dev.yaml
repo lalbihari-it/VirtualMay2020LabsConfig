@@ -11,4 +11,4 @@ spring:
 zipkin.url: http://zipkin:9411/
 rabbitmq.host: rabbitmq-master
 rabbitmq.port: "5672"
-apigateway.eureka.url: http://192.168.99.105:8761/eureka
+apigateway.eureka.url: http://192.168.99.100:8761/eureka
