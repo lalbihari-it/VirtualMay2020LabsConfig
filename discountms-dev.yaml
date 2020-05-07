@@ -1,0 +1,8 @@
+discountdata.discountmap.FURNISHING: 29.00
+discountdata.discountmap.KITCHENELECTRONIC: 22.33
+discountdata.discountmap.MEDICALEQUIPMENT: 5.0
+discountdata.discountmap.MOBILEPHONE: 5.0
+discountdata.discountmap.MUSICINSTRUMENT: 5.9
+discountdata.discountmap.TOY: 9.99
+
+discountms.eureka.url: http://192.168.99.105:8761/eureka
