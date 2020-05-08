@@ -22,17 +22,18 @@ spring:
    port: 5672
   cloud:
     stream:
-     #rabbit:
       bindings:
         webaudit-in: 
          destination: ex.webaudit
          group: q.audit
-         consumer:
-          bindQueue: true
-          declareExchange: true
-          queueNameGroupOnly: true
-          binding-key: 'rk.webaudit.shim.#'
-          binding-routing-key: 'rk.webaudit.shim.#'  
+      rabbit:
+        bindings:
+          webaudit-in:
+           consumer:
+            bindQueue: false
+            declareExchange: false
+            queueNameGroupOnly: true
+            bindingRoutingKey: 'rkwebauditshim1'
     bus:
      trace: 
       enabled: ${webauditms.bus.trace:true}
